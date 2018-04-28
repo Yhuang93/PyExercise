@@ -1,0 +1,9 @@
+def add_up_some_input(*args):
+    total=0
+    for arg in args:
+        total=total+arg
+    print(("The total of the inputs is:%s")%total)
+    return total
+lst=[2,3,4,5]
+add_up_some_input(*lst)
+        

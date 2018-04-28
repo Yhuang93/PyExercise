@@ -1,0 +1,9 @@
+class BankAccount(object):
+    def __init__(self,a):
+        self.a=a
+    def add(self,b):
+        self.b=b
+        self.b+=self.a
+        print(self.b)
+c=BankAccount(2)
+c.add(3)
